@@ -1,6 +1,21 @@
-# 02 Advanced CSS: Portfolio
+## Title
+ 
 
-This portfolio was made using html and css to create a display for my projects.
+## Description
 
-## screenshot of application
-<img src=".\Assets\02-advanced-css-homework-demo.gif">
+
+## Table of Contents
+- [Screenshot of Deployed Application](#deployed)
+- [Deployment Link](#deployment)
+- [Questions](#questions)
+
+
+## Screenshot of Deployed Application
+<img src="">
+
+## Deployment Link
+
+
+## Questions
+Any questions about this code? Feel free to contact me on GitHub at https://github.com/baileyrachael25 or contact me via email at baileyrachael25@gmail.com
+

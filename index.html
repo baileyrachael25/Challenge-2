@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,131 +7,134 @@
         <title>Portfolio Page</title>
         <link rel="stylesheet" href="./style.css"/>
     </head>
-
     <body>
-            <!--header and nav section start-->
-        <header class="header">
-            <h1>Rachael Bailey's Portfolio</h1>
-            <nav class="nav-bar">
-                <a class="active" href="#about-me" target="blank">About Me</a>
-                <a class="active" href="#my-work" target="blank">Work</a>
-                <a class="active" href="#resume-section" target="blank">Resume</a>
-                <a class="active" href="#contact-me" target="blank">Contact Me</a>
-            </nav>
-        </header>
-        <subheader class="sub-header">
-            <h1>Cool Subheader Here</h1>            
-        </subheader>
-        
-        <!--hero image start section--> 
-        <section class="hero">
-            <div>
-                <img src="#" alt="An image of Rachael Bailey">
-            </div>
-            <div class="quote">
-                <blockquote>
-                    <p id="quote-text">
-                        "insert quote applicable to me"
-                    </p>
-                    <p>
-                        --Cite quote author name<br>
-                        --Some other person
-                    </p>
-                </blockquote>
-            </div>    
-        </section>
+        <div class="wrapper">
+                <!--header and nav section start-->
+            <header class="header">
+                <h1>Rachael Bailey's Portfolio</h1>
+                <nav class="nav-bar">
+                    <a class="button" href="#about-me" target="blank">About Me</a>
+                    <a class="button" href="#my-work" target="blank">Work</a>
+                    <a class="button" href="#resume-section" target="blank">Resume</a>
+                    <a class="button" href="#contact-me" target="blank">Contact Me</a>
+                </nav>
+            </header>
+            <subheader class="sub-header">
+                <h1>Cool Subheader Here</h1>            
+            </subheader>
 
-        <!--about me section start-->
-        <section id="about-me" class="about-me">
-            <div class="title">
-                <h2>About Me</h2>
-            </div>
-
-            <div>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend enim at eros finibus luctus. Integer dapibus ex consequat risus pulvinar cursus. Vivamus sit amet mauris congue, tincidunt massa lacinia, varius purus. Curabitur tincidunt fringilla hendrerit. Morbi eleifend purus sed nunc laoreet sollicitudin. Aenean convallis hendrerit condimentum. Maecenas semper, sem quis iaculis gravida, leo turpis ullamcorper lectus, quis placerat quam neque in arcu. Ut interdum odio sed eros ornare ultricies. Sed imperdiet non mi ac eleifend. In pretium, risus quis feugiat commodo, lacus ex pulvinar libero, non rutrum nibh tortor et magna.
-                    <br><br>
-                    Donec blandit aliquet rutrum. Donec et pharetra nulla. Nullam ultrices nisi vitae luctus volutpat. Nunc vitae magna ultricies, vulputate erat vitae, lacinia ipsum. Ut eu nisl at magna vulputate sagittis. Etiam eros orci, dictum sed risus in, iaculis eleifend diam. Ut dapibus nulla sit amet mauris tristique viverra. Mauris varius sed ligula a accumsan. Praesent feugiat euismod velit, eu vestibulum libero scelerisque sed. Aliquam finibus turpis arcu, nec convallis dui semper id. Ut nisl lacus, molestie ac ornare sit amet, suscipit mollis sapien. 
-                </p>
-            </div>
-        </section>
-
-        <!--my work section start-->
-        <section id="my-work" class="my-work">
-            <div class="title">
-                <h2>My Work</h2>
-            </div>
-            <div class="projects-grid-wrapper">
-                <div class="projects-grid">
-
-                    <a href="https://noahwesttech.github.io/We-Deserve-Arrays-Project-1" target="_blank" class="name-of-project">
-                        <div class="project-label">
-                            <img src=".\Assets\images\dose-of-dopamine.jpg.png">
-                            <h3>Dose of Dopamine front end application</h3>
+                <!--aside section about me start -->
+            <aside class="aside-content">
+                <div class="bio-container">
+                    <div class="self-portrait">
+                        <img src="./assets/images/IMG_7818 (1).JPG" alt="An image of Rachael Bailey">
+                    </div>
+                    <div class="quote">
+                        <blockquote>
+                            <p id="quote-text">
+                                "We shall never surrender"
+                            </p>
+                            <p>
+                                --Winston Churchill<br>
+                                --Also me
+                            </p>
+                        </blockquote>
+                    </div>    
+                    <section id="about-me" class="about-me">
+                        <div class="title">
+                            <h2>About Me</h2>
                         </div>
-                    </a>
-                    <a href="https://possessed-web-11287.herokuapp.com/" target="_blank" class="name-of-project">
-                        <div class="project-label">
-                            <img src="./Assets/images/mountain-bike-trails-app.jpg.png">
-                            <h3>Mountain Bike Trails MVC application</h3>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend enim at eros finibus luctus. Integer dapibus ex consequat risus pulvinar cursus. Vivamus sit amet mauris congue, tincidunt massa lacinia, varius purus. Curabitur tincidunt fringilla hendrerit. Morbi eleifend purus sed nunc laoreet sollicitudin. Aenean convallis hendrerit condimentum. Maecenas semper, sem quis iaculis gravida, leo turpis ullamcorper lectus, quis placerat quam neque in arcu. Ut interdum odio sed eros ornare ultricies. Sed imperdiet non mi ac eleifend. In pretium, risus quis feugiat commodo, lacus ex pulvinar libero, non rutrum nibh tortor et magna.
+                                <br><br>
+                                Donec blandit aliquet rutrum. Donec et pharetra nulla. Nullam ultrices nisi vitae luctus volutpat. Nunc vitae magna ultricies, vulputate erat vitae, lacinia ipsum. Ut eu nisl at magna vulputate sagittis. Etiam eros orci, dictum sed risus in, iaculis eleifend diam. Ut dapibus nulla sit amet mauris tristique viverra. Mauris varius sed ligula a accumsan. Praesent feugiat euismod velit, eu vestibulum libero scelerisque sed. Aliquam finibus turpis arcu, nec convallis dui semper id. Ut nisl lacus, molestie ac ornare sit amet, suscipit mollis sapien. 
+                            </p>
                         </div>
-                    </a>
-                    <a href="#" target="_blank" class="name-of-project">
-                        <div class="project-label">
-                            <img src="./Assets/images/">
-                            <h3>PROJECT 3</h3>
-                        </div>
-                    </a>
-                    <a href="#" target="_blank" class="name-of-project">
-                        <div class="project-label">
-                            <img src="./Assets/images/">
-                            <h3>PROJECT 4</h3>
-                        </div>
-                    </a>
-                    <a href="#" target="_blank" class="name-of-project">
-                        <div class="project-label">
-                            <img src="./Assets/images/">
-                            <h3>PROJECT 5</h3>
-                        </div>
-                    </a>
+                    </section>
                 </div>
-            </div>
-        </section>
+            </aside>
 
-        <!--resume section start-->
-        <section id="resume-section" class="resume-section">
-            <div class="title"><h2>Resume</h2></div>
+            <!-- main content start -->
+            <main class="content-grid">
+                <!--projects grid display -->
+                <section id="my-work" class="my-work">
+                    <div class="title">
+                        <h2>My Work</h2>
+                    </div>
+                    <div class="projects-grid-wrapper">
+                        <div class="projects-grid">
 
-            <div>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend enim at eros finibus luctus. Integer dapibus ex consequat risus pulvinar cursus. Vivamus sit amet mauris congue, tincidunt massa lacinia, varius purus. Curabitur tincidunt fringilla hendrerit. Morbi eleifend purus sed nunc laoreet sollicitudin. Aenean convallis hendrerit condimentum. Maecenas semper, sem quis iaculis gravida, leo turpis ullamcorper lectus, quis placerat quam neque in arcu. Ut interdum odio sed eros ornare ultricies. Sed imperdiet non mi ac eleifend. In pretium, risus quis feugiat commodo, lacus ex pulvinar libero, non rutrum nibh tortor et magna.
-                    <br><br>
-                    Donec blandit aliquet rutrum. Donec et pharetra nulla. Nullam ultrices nisi vitae luctus volutpat. Nunc vitae magna ultricies, vulputate erat vitae, lacinia ipsum. Ut eu nisl at magna vulputate sagittis. Etiam eros orci, dictum sed risus in, iaculis eleifend diam. Ut dapibus nulla sit amet mauris tristique viverra. Mauris varius sed ligula a accumsan. Praesent feugiat euismod velit, eu vestibulum libero scelerisque sed. Aliquam finibus turpis arcu, nec convallis dui semper id. Ut nisl lacus, molestie ac ornare sit amet, suscipit mollis sapien. 
-                </p>
-            </div>
-        </section>
+                            <a href="https://noahwesttech.github.io/We-Deserve-Arrays-Project-1" target="_blank" class="name-of-project">
+                                <div class="project-label">
+                                    <img src=".\Assets\images\dose-of-dopamine.jpg.png">
+                                    <h3>Dose of Dopamine front end application</h3>
+                                </div>
+                            </a>
+                            <a href="https://possessed-web-11287.herokuapp.com/" target="_blank" class="name-of-project">
+                                <div class="project-label">
+                                    <img src="./Assets/images/mountain-bike-trails-app.jpg.png">
+                                    <h3>Mountain Bike Trails MVC application</h3>
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="name-of-project">
+                                <div class="project-label">
+                                    <img src="./Assets/images/">
+                                    <h3>PROJECT 3</h3>
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="name-of-project">
+                                <div class="project-label">
+                                    <img src="./Assets/images/">
+                                    <h3>PROJECT 4</h3>
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="name-of-project">
+                                <div class="project-label">
+                                    <img src="./Assets/images/">
+                                    <h3>PROJECT 5</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
 
-        <!--contact me section start-->
-        <footer id="contact-me">
-            <div class="title"><h2>Contact Me</h2></div>
-            <div class="content-wrapper">
-                <div class="contact-list">
-                    <ul>
-                        <li>
-                            <a href="#">Email</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/baileyrachael25" target="blank">GitHub</a>
-                        </li>
-                        <li>
-                            <a href="#" target="blank">LinkedIn</a>
-                        </li>
-                        <li>
-                            <p>(555) 555-5555</p>
-                        </li>
-                    </ul>
+                <!--resume section start-->
+                <section id="resume-section" class="resume-section">
+                    <div class="title"><h2>Resume</h2></div>
+
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend enim at eros finibus luctus. Integer dapibus ex consequat risus pulvinar cursus. Vivamus sit amet mauris congue, tincidunt massa lacinia, varius purus. Curabitur tincidunt fringilla hendrerit. Morbi eleifend purus sed nunc laoreet sollicitudin. Aenean convallis hendrerit condimentum. Maecenas semper, sem quis iaculis gravida, leo turpis ullamcorper lectus, quis placerat quam neque in arcu. Ut interdum odio sed eros ornare ultricies. Sed imperdiet non mi ac eleifend. In pretium, risus quis feugiat commodo, lacus ex pulvinar libero, non rutrum nibh tortor et magna.
+                            <br><br>
+                            Donec blandit aliquet rutrum. Donec et pharetra nulla. Nullam ultrices nisi vitae luctus volutpat. Nunc vitae magna ultricies, vulputate erat vitae, lacinia ipsum. Ut eu nisl at magna vulputate sagittis. Etiam eros orci, dictum sed risus in, iaculis eleifend diam. Ut dapibus nulla sit amet mauris tristique viverra. Mauris varius sed ligula a accumsan. Praesent feugiat euismod velit, eu vestibulum libero scelerisque sed. Aliquam finibus turpis arcu, nec convallis dui semper id. Ut nisl lacus, molestie ac ornare sit amet, suscipit mollis sapien. 
+                        </p>
+                    </div>
+                </section>
+            </main>
+
+            <!--contact me section start-->
+            <footer id="contact-me">
+                <div class="title"><h2>Contact Me</h2></div>
+                <div class="content-wrapper">
+                    <div class="contact-list">
+                        <ul>
+                            <li>
+                                <a href="#">Email</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/baileyrachael25" target="blank">GitHub</a>
+                            </li>
+                            <li>
+                                <a href="#" target="blank">LinkedIn</a>
+                            </li>
+                            <li>
+                                <p>(555) 555-5555</p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
+        </div>    
     </body>
 </html>
